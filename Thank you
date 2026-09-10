@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You | FV Ready Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      background: #eef8ff;
+      color: #06295d;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .thank-you {
+      width: min(650px, calc(100% - 40px));
+      background: white;
+      padding: 50px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(6, 41, 93, .12);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #5f6f82;
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 26px;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #0c84d8, #11b5eb);
+      color: white;
+      text-decoration: none;
+      font-weight: 800;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="thank-you">
+    <h1>Thank You!</h1>
+
+    <p>
+      We've received your request for service.
+      A member of FV Ready Services will be in touch with you soon.
+    </p>
+
+    <p>
+      <strong>(540) 760-7952</strong><br>
+      fvguestreadyservices@gmail.com
+    </p>
+
+    <a href="/" class="button">Return to Home</a>
+  </div>
+
+</body>
+</html>
