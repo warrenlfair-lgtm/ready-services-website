@@ -58,3 +58,45 @@ footer{background:#fff}.footer-top{min-height:110px;display:grid;grid-template-c
     max-width: 320px;
   }
 }
+
+/* Promotional Video Section */
+.video-section {
+  padding: 70px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.video-section .section-subtitle {
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.video-wrapper {
+  max-width: 900px;
+  margin: 30px auto;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 45, 90, 0.18);
+  background: #000;
+}
+
+.video-wrapper video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.video-cta {
+  margin-top: 28px;
+}
+
+@media (max-width: 600px) {
+  .video-section {
+    padding: 50px 16px;
+  }
+
+  .video-wrapper {
+    margin: 24px auto;
+    border-radius: 12px;
+  }
+}
